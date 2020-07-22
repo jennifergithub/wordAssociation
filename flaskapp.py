@@ -31,7 +31,7 @@ def findWord():
             result = random.choice(result_list)
             final_result = result.replace("_", " ")
             return(str(final_result))
-        except:
-            return("Try Again!")
+        except Exception as e:
+            return(str(e))
 
 app.run(host="0.0.0.0", port=4000)
