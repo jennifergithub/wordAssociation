@@ -34,4 +34,4 @@ def findWord():
         except Exception as e:
             return(str(e))
 
-app.run(host="0.0.0.0", port=4000)
+app.run(host="0.0.0.0", port=80)
