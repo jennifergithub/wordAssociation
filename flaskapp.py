@@ -1,4 +1,4 @@
-from flask import Flask, redirect, url_for
+from flask import Flask
 from flask import request
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
